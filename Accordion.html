@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-git.js"></script>
+    <script src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+
+    <script type="text/javascript">
+        $(Document).ready(
+
+function() {
+    $("#divid").accordion({
+        event: "mouseover"
+    });
+    var event = $("#divid").accordion("option", "event");
+
+    $("#divid").accordion("option", "event", "mouseover");
+});
+
+    </script>
+
+<body>
+    <p><b>MY FAVOURITE GAMER</b></p>
+    <div id="divid">
+       <h3>Jonathan Gaming(Jonny)</h3>
+       <div>Jonathan Amaral, esports player from India. He is the best pubg player India has, and he is 19 years old. Jonathan is one of the most destructive players of pubg in the world, known for his hacker-like gameplay. He has active 1Million followers on Instagram and 2.5 Million subscribers on YouTube.</div>
+       <h3>Feitz Gaming</h3>
+       <div>Feitz has been conqueror multiple seasons, originally a mainly FPP player up until season 12, where Feitz made the transition to TPP. Wether it is PUBG Mobile gameplay or PUBGM highlights, Feitz's videos are always action packed and full of exciting clutch moments!</div>
+       <h3>BGMI Full Form</h3>
+       <div>Battlegrounds Mobile India,</div>
+    </div>
+    </body>
+</html>
